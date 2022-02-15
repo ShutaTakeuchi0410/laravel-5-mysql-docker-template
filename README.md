@@ -37,10 +37,7 @@ APP_NAME=LaravelApp
 ```
 
 ### 5. Set Laravel configuration
-
-1. Replace default .env for .env.example
-2. Generate key
-3. chmod 777
+setting .env & generating key & chmod 777
 
 ```bash
 $ make init
