@@ -57,6 +57,12 @@ $ make up
 $ make browse
 ```
 
+### Open phpMyAdmin
+
+```bash
+$ make pma
+```
+
 ### Enter App container
 
 ```bash

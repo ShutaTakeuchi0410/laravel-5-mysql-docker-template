@@ -41,3 +41,6 @@ up:
 
 browse:
 	open http://localhost:8000
+
+pma:
+	open http://localhost:3000
