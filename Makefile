@@ -27,9 +27,6 @@ chmod-777:
 app:
 	docker compose run --rm app bash
 
-tinker:
-	docker compose run --rm app php artisan tinker
-
 migrate:
 	docker compose run --rm app php artisan migrate
 

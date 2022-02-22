@@ -15,6 +15,13 @@ libpng-dev \
 libpq-dev \
 && docker-php-ext-install pdo_mysql
 
+# コンテナ内における日本語対応
+RUN apt-get update && \
+    apt-get install -y locales && \
+    echo "ja_JP UTF-8" > /etc/locale.gen && \
+    locale-gen && \
+    echo "export LANG=ja_JP.UTF-8" >> ~/.bashrc
+
 RUN mv /etc/apache2/mods-available/rewrite.load /etc/apache2/mods-enabled
 RUN /bin/sh -c a2enmod rewrite
 

@@ -51,6 +51,12 @@ $ make init
 $ make up
 ```
 
+### Enter App container
+
+```bash
+$ make app
+```
+
 ### Open Localhost:8000
 
 ```bash
@@ -61,18 +67,6 @@ $ make browse
 
 ```bash
 $ make pma
-```
-
-### Enter App container
-
-```bash
-$ make app
-```
-
-### Use tinker
-
-```bash
-$ make tinker
 ```
 
 [Click here to see other commands & details](Makefile)
